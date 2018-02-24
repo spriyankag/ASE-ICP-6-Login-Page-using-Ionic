@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Registration Form
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+
+  <ion-item>
+    <ion-label floating>Enter Username</ion-label>
+    <ion-input type="text" #username></ion-input>
+  </ion-item>
+    <ion-item>
+    <ion-label floating>Enter First Name</ion-label>
+    <ion-input type="text" #firstname></ion-input>
+  </ion-item>
+    <ion-item>
+    <ion-label floating>Enter Last Name</ion-label>
+    <ion-input type="text" #lastname></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating>Enter Password</ion-label>
+    <ion-input type="password" #password></ion-input>
+  </ion-item>
+<ion-item>
+    <ion-label floating>Please Confirm Password</ion-label>
+    <ion-input type="password" #confirmpassword></ion-input>
+  </ion-item>
+
+</ion-list>
+
+<div padding>
+  <button class="button" (click)="registerUser()">REGISTER</button>
+</div>
+</ion-content>

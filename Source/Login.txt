@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+     Home Page
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <div class="row">
+        
+       <div class="col">
+        <button class="button" align="center" (click)="signIn()">LOGIN</button>
+        </div>
+        
+        <div class="col">
+              <button class="button" (click)="register()"> REGISTER</button>
+        </div>
+        <div class="col">
+        </div>
+         
+    </div>
+ 
+</ion-content>
